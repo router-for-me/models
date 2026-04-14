@@ -2324,6 +2324,58 @@
   ],
   "qwen": [
     {
+      "id": "qwen3-coder-plus",
+      "object": "model",
+      "created": 1754686206,
+      "owned_by": "qwen",
+      "type": "qwen",
+      "display_name": "Qwen3 Coder Plus",
+      "version": "3",
+      "description": "Flagship coding model with extended thinking support",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "supported_parameters": [
+        "temperature",
+        "top_p",
+        "max_tokens",
+        "stream",
+        "stop"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    {
+      "id": "qwen3-coder-flash",
+      "object": "model",
+      "created": 1754686206,
+      "owned_by": "qwen",
+      "type": "qwen",
+      "display_name": "Qwen3 Coder Flash",
+      "version": "3",
+      "description": "Fast and efficient coding model",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "supported_parameters": [
+        "temperature",
+        "top_p",
+        "max_tokens",
+        "stream",
+        "stop"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    {
       "id": "coder-model",
       "object": "model",
       "created": 1771171200,
@@ -2331,9 +2383,34 @@
       "type": "qwen",
       "display_name": "Qwen 3.6 Plus",
       "version": "3.6",
-      "description": "efficient hybrid model with leading coding performance",
+      "description": "Efficient hybrid model with leading coding performance",
       "context_length": 1048576,
       "max_completion_tokens": 65536,
+      "supported_parameters": [
+        "temperature",
+        "top_p",
+        "max_tokens",
+        "stream",
+        "stop"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    {
+      "id": "vision-model",
+      "object": "model",
+      "created": 1771171200,
+      "owned_by": "qwen",
+      "type": "qwen",
+      "display_name": "Qwen Vision",
+      "description": "Vision-capable model for multimodal analysis",
+      "context_length": 1048576,
+      "max_completion_tokens": 32768,
       "supported_parameters": [
         "temperature",
         "top_p",
