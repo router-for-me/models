@@ -1,0 +1,50 @@
+name: Daily Sync
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.MODELS_SYNC }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/router-for-me/models.git
+          git fetch upstream main
+
+      - name: Merge upstream
+        run: git merge upstream/main --no-edit
+
+      - name: Check for changes
+        id: check
+        run: |
+          if git diff --quiet origin/main HEAD; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push
+        if: steps.check.outputs.has_changes == 'true'
+        run: git push origin main
+
+      - name: Summary
+        if: steps.check.outputs.has_changes == 'true'
+        run: |
+          echo "### Sync Summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Synced from \`router-for-me/models\`" >> "$GITHUB_STEP_SUMMARY"
