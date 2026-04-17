@@ -1627,59 +1627,20 @@
   ],
   "kimi": [
     {
-      "id": "kimi-k2-0905-preview",
+      "id": "kimi-for-coding",
       "object": "model",
-      "created": 1757030400,
+      "created": 1761264000,
       "owned_by": "moonshot",
       "type": "kimi",
-      "display_name": "Kimi K2 0905 Preview",
-      "description": "Kimi K2 0905 Preview - Latest version with 256K context and improved agentic coding",
-      "context_length": 262144,
-      "max_completion_tokens": 32768
-    },
-    {
-      "id": "kimi-k2-turbo-preview",
-      "object": "model",
-      "created": 1757030400,
-      "owned_by": "moonshot",
-      "type": "kimi",
-      "display_name": "Kimi K2 Turbo Preview",
-      "description": "Kimi K2 Turbo Preview - High-speed version recommended for enterprise applications",
-      "context_length": 262144,
-      "max_completion_tokens": 32768
-    },
-    {
-      "id": "kimi-k2-thinking",
-      "object": "model",
-      "created": 1757030400,
-      "owned_by": "moonshot",
-      "type": "kimi",
-      "display_name": "Kimi K2 Thinking",
-      "description": "Kimi K2 Thinking - Long-thinking model with multi-step tool calling and reasoning",
+      "display_name": "Kimi Code",
+      "description": "Kimi Code (powered by k2.6-code-preview) - Kimi coding-plan model, 256K context, supports reasoning",
       "context_length": 262144,
       "max_completion_tokens": 32768,
       "thinking": {
         "min": 1024,
         "max": 32000,
         "zero_allowed": true,
-        "dynamic_allowed": true
-      }
-    },
-    {
-      "id": "kimi-k2-thinking-turbo",
-      "object": "model",
-      "created": 1757030400,
-      "owned_by": "moonshot",
-      "type": "kimi",
-      "display_name": "Kimi K2 Thinking Turbo",
-      "description": "Kimi K2 Thinking Turbo - High-speed long-thinking model",
-      "context_length": 262144,
-      "max_completion_tokens": 32768,
-      "thinking": {
-        "min": 1024,
-        "max": 32000,
-        "zero_allowed": true,
-        "dynamic_allowed": true
+        "levels": ["low", "medium", "high"]
       }
     }
   ],
