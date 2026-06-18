@@ -1919,46 +1919,6 @@
       }
     },
     {
-      "id": "gemini-3-pro-high",
-      "object": "model",
-      "owned_by": "antigravity",
-      "type": "antigravity",
-      "display_name": "Gemini 3 Pro (High)",
-      "name": "gemini-3-pro-high",
-      "description": "Gemini 3 Pro (High)",
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "thinking": {
-        "min": 128,
-        "max": 32768,
-        "dynamic_allowed": true,
-        "levels": [
-          "low",
-          "high"
-        ]
-      }
-    },
-    {
-      "id": "gemini-3-pro-low",
-      "object": "model",
-      "owned_by": "antigravity",
-      "type": "antigravity",
-      "display_name": "Gemini 3 Pro (Low)",
-      "name": "gemini-3-pro-low",
-      "description": "Gemini 3 Pro (Low)",
-      "context_length": 1048576,
-      "max_completion_tokens": 65535,
-      "thinking": {
-        "min": 128,
-        "max": 32768,
-        "dynamic_allowed": true,
-        "levels": [
-          "low",
-          "high"
-        ]
-      }
-    },
-    {
       "id": "gemini-3.1-flash-image",
       "object": "model",
       "owned_by": "antigravity",
@@ -2073,7 +2033,6 @@
         ]
       }
     }
-
   ],
   "xai": [
     {
