@@ -2045,16 +2045,7 @@
       "name": "grok-build-0.1",
       "description": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows.",
       "context_length": 256000,
-      "max_completion_tokens": 256000,
-      "thinking": {
-        "zero_allowed": true,
-        "levels": [
-          "none",
-          "low",
-          "medium",
-          "high"
-        ]
-      }
+      "max_completion_tokens": 256000
     },
     {
       "id": "grok-4.3",
@@ -2168,14 +2159,7 @@
       "name": "grok-composer-2.5-fast",
       "description": "xAI Composer 2.5 Fast model for the Responses API.",
       "context_length": 200000,
-      "max_completion_tokens": 32768,
-      "thinking": {
-        "levels": [
-          "low",
-          "medium",
-          "high"
-        ]
-      }
+      "max_completion_tokens": 32768
     }
   ]
 }
