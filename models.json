@@ -2179,8 +2179,8 @@
         "zero_allowed": true,
         "dynamic_allowed": true,
         "levels": [
-          "low",
-          "high"
+          "high",
+          "max"
         ]
       }
     },
