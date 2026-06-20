@@ -2177,7 +2177,11 @@
         "min": 1024,
         "max": 32000,
         "zero_allowed": true,
-        "dynamic_allowed": true
+        "dynamic_allowed": true,
+        "levels": [
+          "low",
+          "high"
+        ]
       }
     },
     {
