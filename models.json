@@ -1795,8 +1795,8 @@
       "owned_by": "moonshot",
       "type": "kimi",
       "display_name": "Kimi K2.5",
-      "description": "Kimi K2.5 - Latest Moonshot AI coding model with improved capabilities",
-      "context_length": 131072,
+      "description": "Kimi K2.5 - Native multimodal agentic model with text, image, and video input; supports thinking and non-thinking modes",
+      "context_length": 262144,
       "max_completion_tokens": 32768,
       "thinking": {
         "min": 1024,
@@ -1812,7 +1812,7 @@
       "owned_by": "moonshot",
       "type": "kimi",
       "display_name": "Kimi K2.6",
-      "description": "Kimi K2.6 - Latest Moonshot AI coding model with improved capabilities",
+      "description": "Kimi K2.6 - Native multimodal agentic model with stronger long-horizon agentic coding, long-context reasoning, and preserved thinking support",
       "context_length": 262144,
       "max_completion_tokens": 65536,
       "thinking": {
@@ -1830,6 +1830,23 @@
       "type": "kimi",
       "display_name": "Kimi K2.7 Code",
       "description": "Kimi K2.7 Code - Moonshot AI's latest coding-focused model",
+      "context_length": 262144,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 1024,
+        "max": 32000,
+        "zero_allowed": false,
+        "dynamic_allowed": true
+      }
+    },
+    {
+      "id": "kimi-k2.7-code-highspeed",
+      "object": "model",
+      "created": 1780396800,
+      "owned_by": "moonshot",
+      "type": "kimi",
+      "display_name": "Kimi K2.7 Code HighSpeed",
+      "description": "Kimi K2.7 Code HighSpeed - Same capabilities as Kimi K2.7 Code with higher output speed (~180 tokens/s)",
       "context_length": 262144,
       "max_completion_tokens": 65536,
       "thinking": {
