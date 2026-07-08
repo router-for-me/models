@@ -2136,7 +2136,7 @@
     {
       "id": "grok-4.5",
       "object": "model",
-      "created": 1775606400,
+      "created": 1783526400,
       "owned_by": "xai",
       "type": "xai",
       "display_name": "Grok 4.5",
