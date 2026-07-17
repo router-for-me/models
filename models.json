@@ -2092,13 +2092,9 @@
       "context_length": 131072,
       "max_completion_tokens": 32768,
       "thinking": {
-        "min": 1024,
-        "max": 32000,
         "zero_allowed": true,
-        "dynamic_allowed": true,
         "levels": [
           "low",
-          "medium",
           "high"
         ]
       }
@@ -2114,13 +2110,9 @@
       "context_length": 262144,
       "max_completion_tokens": 32768,
       "thinking": {
-        "min": 1024,
-        "max": 32000,
         "zero_allowed": true,
-        "dynamic_allowed": true,
         "levels": [
           "low",
-          "medium",
           "high"
         ]
       }
@@ -2136,13 +2128,9 @@
       "context_length": 262144,
       "max_completion_tokens": 65536,
       "thinking": {
-        "min": 1024,
-        "max": 32000,
         "zero_allowed": true,
-        "dynamic_allowed": true,
         "levels": [
           "low",
-          "medium",
           "high"
         ]
       }
@@ -2158,13 +2146,9 @@
       "context_length": 262144,
       "max_completion_tokens": 65536,
       "thinking": {
-        "min": 1024,
-        "max": 32000,
         "zero_allowed": false,
-        "dynamic_allowed": true,
         "levels": [
           "low",
-          "medium",
           "high"
         ]
       }
@@ -2180,13 +2164,9 @@
       "context_length": 262144,
       "max_completion_tokens": 65536,
       "thinking": {
-        "min": 1024,
-        "max": 32000,
         "zero_allowed": false,
-        "dynamic_allowed": true,
         "levels": [
           "low",
-          "medium",
           "high"
         ]
       }
@@ -2202,10 +2182,7 @@
       "context_length": 1048576,
       "max_completion_tokens": 65536,
       "thinking": {
-        "min": 1024,
-        "max": 32000,
         "zero_allowed": false,
-        "dynamic_allowed": true,
         "levels": [
           "max"
         ]
