@@ -2231,7 +2231,7 @@
       "object": "model",
       "owned_by": "antigravity",
       "type": "antigravity",
-      "display_name": "Gemini 3.6 Flash (High)",
+      "display_name": "Gemini 3.6 Flash",
       "name": "gemini-3.6-flash-high",
       "description": "Gemini 3.6 Flash (High)",
       "context_length": 1048576,
