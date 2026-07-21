@@ -2231,9 +2231,53 @@
       "object": "model",
       "owned_by": "antigravity",
       "type": "antigravity",
-      "display_name": "Gemini 3.6 Flash",
+      "display_name": "Gemini 3.6 Flash (High)",
       "name": "gemini-3.6-flash-high",
       "description": "Gemini 3.6 Flash (High)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 1,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3.6-flash-medium",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.6 Flash (Medium)",
+      "name": "gemini-3.6-flash-medium",
+      "description": "Gemini 3.6 Flash (Medium)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 1,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      }
+    },
+    {
+      "id": "gemini-3.6-flash-low",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.6 Flash (Low)",
+      "name": "gemini-3.6-flash-low",
+      "description": "Gemini 3.6 Flash (Low)",
       "context_length": 1048576,
       "max_completion_tokens": 65536,
       "thinking": {
