@@ -52,6 +52,29 @@
       }
     },
     {
+      "id": "claude-sonnet-5",
+      "object": "model",
+      "created": 1782777600,
+      "owned_by": "anthropic",
+      "type": "claude",
+      "display_name": "Claude Sonnet 5",
+      "description": "Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work",
+      "context_length": 1000000,
+      "max_completion_tokens": 128000,
+      "thinking": {
+        "min": 1024,
+        "max": 128000,
+        "zero_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      }
+    },
+    {
       "id": "claude-opus-4-6",
       "object": "model",
       "created": 1770318000,
