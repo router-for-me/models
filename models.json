@@ -31,6 +31,27 @@
       }
     },
     {
+      "id": "claude-sonnet-5",
+      "object": "model",
+      "created": 1785456000,
+      "owned_by": "anthropic",
+      "type": "claude",
+      "display_name": "Claude Sonnet 5",
+      "context_length": 200000,
+      "max_completion_tokens": 64000,
+      "thinking": {
+        "min": 1024,
+        "max": 128000,
+        "zero_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "max"
+        ]
+      }
+    },
+    {
       "id": "claude-sonnet-4-6",
       "object": "model",
       "created": 1771372800,
