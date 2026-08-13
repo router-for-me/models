@@ -806,6 +806,44 @@
       "supportedOutputModalities": [
         "text"
       ]
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "object": "model",
+      "created": 1786579200,
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 3.7 Flash",
+      "name": "models/gemini-3.7-flash",
+      "version": "3.7",
+      "description": "Gemini 3.7 Flash",
+      "inputTokenLimit": 1048576,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ],
+      "thinking": {
+        "min": 128,
+        "max": 32768,
+        "dynamic_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
     }
   ],
   "vertex": [
@@ -1405,6 +1443,44 @@
         "dynamic_allowed": true,
         "levels": [
           "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "object": "model",
+      "created": 1786579200,
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 3.7 Flash",
+      "name": "models/gemini-3.7-flash",
+      "version": "3.7",
+      "description": "Gemini 3.7 Flash",
+      "inputTokenLimit": 1048576,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ],
+      "thinking": {
+        "min": 128,
+        "max": 32768,
+        "dynamic_allowed": true,
+        "levels": [
           "low",
           "medium",
           "high"
@@ -2142,6 +2218,44 @@
         "dynamic_allowed": true,
         "levels": [
           "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.7-flash",
+      "object": "model",
+      "created": 1786579200,
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 3.7 Flash",
+      "name": "models/gemini-3.7-flash",
+      "version": "3.7",
+      "description": "Gemini 3.7 Flash",
+      "inputTokenLimit": 1048576,
+      "outputTokenLimit": 65536,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "createCachedContent",
+        "batchGenerateContent"
+      ],
+      "thinking": {
+        "min": 128,
+        "max": 32768,
+        "dynamic_allowed": true,
+        "levels": [
           "low",
           "medium",
           "high"
@@ -3293,17 +3407,169 @@
       "object": "model",
       "owned_by": "antigravity",
       "type": "antigravity",
-      "display_name": "Gemini 3.6 Flash",
+      "display_name": "Gemini 3.6 Flash (High)",
       "name": "gemini-3.6-flash-high",
       "description": "Gemini 3.6 Flash (High)",
       "context_length": 1048576,
       "max_completion_tokens": 65536,
       "thinking": {
-        "min": 1,
+        "min": 32,
         "max": 65535,
         "dynamic_allowed": true,
         "levels": [
           "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.6-flash-medium",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.6 Flash (Medium)",
+      "name": "gemini-3.6-flash-medium",
+      "description": "Gemini 3.6 Flash (Medium)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 32,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.6-flash-low",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.6 Flash (Low)",
+      "name": "gemini-3.6-flash-low",
+      "description": "Gemini 3.6 Flash (Low)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 32,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "minimal",
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.7-flash-high",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.7 Flash (High)",
+      "name": "gemini-3.7-flash-high",
+      "description": "Gemini 3.7 Flash (High)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 32,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.7-flash-medium",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.7 Flash (Medium)",
+      "name": "gemini-3.7-flash-medium",
+      "description": "Gemini 3.7 Flash (Medium)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 32,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gemini-3.7-flash-low",
+      "object": "model",
+      "owned_by": "antigravity",
+      "type": "antigravity",
+      "display_name": "Gemini 3.7 Flash (Low)",
+      "name": "gemini-3.7-flash-low",
+      "description": "Gemini 3.7 Flash (Low)",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 32,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
           "low",
           "medium",
           "high"
