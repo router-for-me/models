@@ -3132,6 +3132,43 @@
       "supportedOutputModalities": [
         "text"
       ]
+    },
+    {
+      "id": "gpt-daybreak-blue-latest",
+      "object": "model",
+      "created": 1783616400,
+      "owned_by": "openai",
+      "type": "openai",
+      "display_name": "GPT Daybreak Blue",
+      "version": "gpt-5.6",
+      "description": "Daybreak blue preview slot from the Codex client catalog.",
+      "context_length": 372000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "tools"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
+      "config": {
+        "override_header": {
+          "user-agent": "codex-tui/0.144.0 (Mac OS 26.5.1; arm64) iTerm.app/3.6.11 (codex-tui; 0.144.0)",
+          "originator": "codex-tui"
+        }
+      },
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
     }
   ],
   "kimi": [
