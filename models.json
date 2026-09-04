@@ -2723,6 +2723,37 @@
       ]
     },
     {
+      "id": "gpt-6-astra",
+      "object": "model",
+      "created": 1788541200,
+      "owned_by": "openai",
+      "type": "openai",
+      "display_name": "GPT 6 Astra",
+      "version": "gpt-6",
+      "description": "Our most capable model, built for the hardest end-to-end work.",
+      "context_length": 372000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "tools"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
       "id": "codex-auto-review",
       "object": "model",
       "created": 1776902400,
@@ -2973,6 +3004,37 @@
       ]
     },
     {
+      "id": "gpt-6-astra",
+      "object": "model",
+      "created": 1788541200,
+      "owned_by": "openai",
+      "type": "openai",
+      "display_name": "GPT 6 Astra",
+      "version": "gpt-6",
+      "description": "Our most capable model, built for the hardest end-to-end work.",
+      "context_length": 372000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "tools"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
       "id": "codex-auto-review",
       "object": "model",
       "created": 1776902400,
@@ -3213,6 +3275,37 @@
           "user-agent": "codex-tui/0.144.0 (Mac OS 26.5.1; arm64) iTerm.app/3.6.11 (codex-tui; 0.144.0)",
           "originator": "codex-tui"
         }
+      },
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "gpt-6-astra",
+      "object": "model",
+      "created": 1788541200,
+      "owned_by": "openai",
+      "type": "openai",
+      "display_name": "GPT 6 Astra",
+      "version": "gpt-6",
+      "description": "Our most capable model, built for the hardest end-to-end work.",
+      "context_length": 921000,
+      "max_completion_tokens": 128000,
+      "supported_parameters": [
+        "tools"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
       },
       "supportedInputModalities": [
         "text",
