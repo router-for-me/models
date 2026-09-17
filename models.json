@@ -2424,6 +2424,28 @@
       }
     },
     {
+      "id": "gemini-3.5-transcribe",
+      "object": "model",
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 3.5 Transcribe",
+      "name": "models/gemini-3.5-transcribe",
+      "version": "3.5-transcribe-08-2026",
+      "description": "Gemini 3.5 Transcribe",
+      "inputTokenLimit": 98304,
+      "outputTokenLimit": 32768,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ],
+      "supportedInputModalities": [
+        "audio"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
       "id": "gemini-3.6-flash",
       "object": "model",
       "created": 1782864000,
