@@ -776,6 +776,30 @@
       }
     },
     {
+      "id": "grok-4-7",
+      "object": "model",
+      "type": "devin",
+      "owned_by": "xai",
+      "display_name": "Grok 4.7",
+      "context_length": 500000,
+      "max_completion_tokens": 131072,
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ]
+      }
+    },
+    {
       "id": "grok-4-5",
       "object": "model",
       "type": "devin",
