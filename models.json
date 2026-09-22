@@ -4200,6 +4200,34 @@
       ]
     },
     {
+      "id": "grok-4.7-build-fast",
+      "object": "model",
+      "created": 1790000000,
+      "owned_by": "xai",
+      "type": "xai",
+      "display_name": "Grok 4.7 Fast",
+      "name": "grok-4.7-build-fast",
+      "description": "SpaceXAI's Grok 4.7 fast tier: the same model served on faster infrastructure at twice the token price. Served on the Grok Build route (cli-chat-proxy.grok.com) for OAuth logins; not exposed by the public xAI API.",
+      "context_length": 500000,
+      "max_completion_tokens": 500000,
+      "thinking": {
+        "zero_allowed": false,
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
       "id": "grok-4.6",
       "native_capabilities": {
         "web_search": true
