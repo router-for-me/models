@@ -1,5 +1,16 @@
 # Model capability metadata
 
+## GPT-6.1 Sol
+
+`gpt-6.1-sol` is registered for Codex Team, Plus, and Pro, with an exact client
+template so clients receive its tool-mode and reasoning metadata. Free-tier
+availability is not inferred. The Codex client template uses a 272,000-token
+default window, an 872,000-token maximum window, and `low` default reasoning;
+these are Codex client values, distinct from the public API's limits and default.
+The registry exposes `low`, `medium`, `high`, `xhigh`, and `max` reasoning.
+The client template additionally describes `ultra` delegation, as reported by
+the Codex client catalog. See the [official API model card](https://developers.openai.com/api/docs/models/gpt-6.1-sol).
+
 `models.json` may describe native, upstream model capabilities with an optional
 per-model object:
 
