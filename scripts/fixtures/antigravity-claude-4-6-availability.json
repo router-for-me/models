@@ -1,0 +1,26 @@
+{
+  "kind": "redacted-live-upstream-observation",
+  "observed_on": "2026-10-03",
+  "endpoint": "https://daily-cloudcode-pa.googleapis.com/v1internal:fetchAvailableModels",
+  "verification": "All eight enabled credentials in the tested pool returned both IDs. Production and sandbox were also checked with one credential. Both IDs returned HTTP 200 and text pong from daily generateContent with one credential; response.modelVersion matched each requested ID. This is an observation of the tested accounts, not a guarantee for every plan or future availability. Credentials, project IDs, quotas, and experiment metadata are omitted.",
+  "models": {
+    "claude-opus-4-6-thinking": {
+      "displayName": "Claude Opus 4.6 (Thinking)",
+      "supportsImages": true,
+      "supportsThinking": true,
+      "thinkingBudget": 1024,
+      "maxTokens": 250000,
+      "maxOutputTokens": 64000,
+      "tagDescription": "Opus 5.5 is now available on paid Pro and Ultra plans. Third-party model access will no longer be available on your current plan starting on November 2, 2026."
+    },
+    "claude-sonnet-4-6": {
+      "displayName": "Claude Sonnet 4.6 (Thinking)",
+      "supportsImages": true,
+      "supportsThinking": true,
+      "thinkingBudget": 1024,
+      "maxTokens": 250000,
+      "maxOutputTokens": 64000,
+      "tagDescription": "Sonnet 5.5 is now available on paid Pro and Ultra plans. Third-party model access will no longer be available on your current plan starting on November 2, 2026."
+    }
+  }
+}
