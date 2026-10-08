@@ -696,7 +696,7 @@
       "name": "models/gemini-3.1-flash-image-preview",
       "version": "3.1",
       "description": "Gemini 3.1 Flash Image Preview",
-      "inputTokenLimit": 1048576,
+      "inputTokenLimit": 131072,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -817,7 +817,7 @@
       "name": "models/gemini-3-pro-image-preview",
       "version": "3.0",
       "description": "Gemini 3 Pro Image Preview",
-      "inputTokenLimit": 1048576,
+      "inputTokenLimit": 65536,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -1124,7 +1124,7 @@
       "name": "models/gemini-2.5-flash-image",
       "version": "001",
       "description": "Our state-of-the-art image generation and editing model.",
-      "inputTokenLimit": 1048576,
+      "inputTokenLimit": 65536,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -1359,7 +1359,7 @@
       "name": "models/gemini-3.1-flash-image",
       "version": "3.1",
       "description": "Gemini 3.1 Flash Image",
-      "inputTokenLimit": 1048576,
+      "inputTokenLimit": 131072,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -1440,7 +1440,7 @@
       "name": "models/gemini-3-pro-image",
       "version": "3.0",
       "description": "Gemini 3 Pro Image",
-      "inputTokenLimit": 1048576,
+      "inputTokenLimit": 65536,
       "outputTokenLimit": 65536,
       "supportedGenerationMethods": [
         "generateContent",
@@ -2415,7 +2415,7 @@
       "name": "models/gemini-2.5-flash-image",
       "version": "2.5",
       "description": "State-of-the-art image generation and editing model.",
-      "inputTokenLimit": 1048576,
+      "inputTokenLimit": 65536,
       "outputTokenLimit": 8192,
       "supportedGenerationMethods": [
         "generateContent",
@@ -4253,6 +4253,7 @@
       "display_name": "Gemini 3.1 Flash Image",
       "name": "gemini-3.1-flash-image",
       "description": "Gemini 3.1 Flash Image",
+      "context_length": 131072,
       "thinking": {
         "min": 128,
         "max": 32768,
