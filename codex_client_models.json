@@ -169,6 +169,11 @@
           "id": "priority",
           "name": "Fast",
           "description": "2x speed, increased usage"
+        },
+        {
+          "id": "ultrafast",
+          "name": "Ultrafast",
+          "description": "The fastest available responses for latency-sensitive work."
         }
       ],
       "additional_speed_tiers": [
@@ -350,6 +355,11 @@
           "id": "priority",
           "name": "Fast",
           "description": "2x speed, increased usage"
+        },
+        {
+          "id": "ultrafast",
+          "name": "Ultrafast",
+          "description": "The fastest available responses for latency-sensitive work."
         }
       ],
       "additional_speed_tiers": [
