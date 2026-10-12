@@ -17,6 +17,12 @@
       "source": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/web-search-tool",
       "evidence": "Maintainer declaration: Anthropic-native Claude Sonnet 5.5 supports the native web_search server tool. This applies only to the claude catalog section; Antigravity-hosted Claude models do not support web search.",
       "retrieval": "Maintainer declaration, 2026-10-04"
+    },
+    "claude-haiku-5-5": {
+      "web_search": true,
+      "source": "https://github.com/router-for-me/models/commit/e63af9856bda19828dfe93a6fa0559a5ab32965c",
+      "evidence": "Maintainer catalog declaration: commit e63af98 added the exact claude/claude-haiku-5-5 entry with native_capabilities.web_search set to true. Restoring that entry preserves the original declaration for the claude catalog section only.",
+      "retrieval": "Repository commit e63af98, 2026-10-08; catalog declaration, not a live model invocation"
     }
   },
   "xai": {
