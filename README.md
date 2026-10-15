@@ -36,10 +36,10 @@ model-level Codex client template. An exact slug match with
 
 | Catalog section | `web_search: true` model IDs |
 | --- | --- |
-| `codex-free` | `gpt-5.5`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
-| `codex-team` | `gpt-5.5`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
-| `codex-plus` | `gpt-5.3-codex-spark`, `gpt-5.5`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
-| `codex-pro` | `gpt-5.3-codex-spark`, `gpt-5.5`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
+| `codex-free` | `gpt-5.5`, `gpt-daybreak-blue-latest`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
+| `codex-team` | `gpt-5.5`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-daybreak-blue-latest`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
+| `codex-plus` | `gpt-5.3-codex-spark`, `gpt-5.5`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-daybreak-blue-latest`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
+| `codex-pro` | `gpt-5.3-codex-spark`, `gpt-5.5`, `gpt-6-astra`, `gpt-5.6-sol`, `gpt-daybreak-blue-latest`, `gpt-5.6-terra`, `gpt-5.6-luna`, `codex-auto-review` |
 
 `gpt-reserve` appears in the client template but not in `models.json`, so no
 catalog entry is created for it. No model currently has an evidence-backed
