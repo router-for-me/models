@@ -2293,6 +2293,32 @@
       }
     },
     {
+      "id": "gemini-3.1-flash-lite-image",
+      "object": "model",
+      "created": 1782864000,
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 3.1 Flash Lite Image",
+      "name": "models/gemini-3.1-flash-lite-image",
+      "version": "3.1",
+      "description": "Our smallest and most cost effective image generation and editing model, built for at scale usage.",
+      "inputTokenLimit": 65536,
+      "outputTokenLimit": 4096,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens",
+        "batchGenerateContent"
+      ],
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text",
+        "image"
+      ]
+    },
+    {
       "id": "gemini-pro-latest",
       "object": "model",
       "created": 1750118400,
