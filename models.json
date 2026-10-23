@@ -2516,6 +2516,29 @@
       }
     },
     {
+      "id": "gemini-3.5-transcribe",
+      "object": "model",
+      "created": 1787702400,
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 3.5 Transcribe",
+      "name": "models/gemini-3.5-transcribe",
+      "version": "3.5",
+      "description": "Audio transcription model: up to 1 hour of audio per request, returns text with optional word-level annotations.",
+      "inputTokenLimit": 98304,
+      "outputTokenLimit": 32768,
+      "supportedGenerationMethods": [
+        "generateContent",
+        "countTokens"
+      ],
+      "supportedInputModalities": [
+        "audio"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
       "id": "gemini-3.6-flash",
       "object": "model",
       "created": 1782864000,
