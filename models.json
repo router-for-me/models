@@ -2975,7 +2975,7 @@
       "display_name": "GPT 6.1 Sol",
       "version": "gpt-6.0",
       "description": "Latest workhorse model for coding and everyday work.",
-      "context_length": 272000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3328,7 +3328,7 @@
       "display_name": "GPT 6.1 Sol",
       "version": "gpt-6.0",
       "description": "Latest workhorse model for coding and everyday work.",
-      "context_length": 272000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3681,7 +3681,7 @@
       "display_name": "GPT 6.1 Sol",
       "version": "gpt-6.0",
       "description": "Latest workhorse model for coding and everyday work.",
-      "context_length": 272000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
