@@ -693,8 +693,8 @@
       "name": "models/gemini-3.1-flash-image-preview",
       "version": "3.1",
       "description": "Gemini 3.1 Flash Image Preview",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 32768,
       "supportedGenerationMethods": [
         "generateContent",
         "countTokens",
@@ -814,8 +814,8 @@
       "name": "models/gemini-3-pro-image-preview",
       "version": "3.0",
       "description": "Gemini 3 Pro Image Preview",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
+      "inputTokenLimit": 65536,
+      "outputTokenLimit": 32768,
       "supportedGenerationMethods": [
         "generateContent",
         "countTokens",
@@ -1150,8 +1150,8 @@
       "name": "models/gemini-2.5-flash-image",
       "version": "001",
       "description": "Our state-of-the-art image generation and editing model.",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
+      "inputTokenLimit": 32768,
+      "outputTokenLimit": 32768,
       "supportedGenerationMethods": [
         "generateContent",
         "countTokens",
@@ -1385,8 +1385,8 @@
       "name": "models/gemini-3.1-flash-image",
       "version": "3.1",
       "description": "Gemini 3.1 Flash Image",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
+      "inputTokenLimit": 131072,
+      "outputTokenLimit": 32768,
       "supportedGenerationMethods": [
         "generateContent",
         "countTokens",
@@ -1466,8 +1466,8 @@
       "name": "models/gemini-3-pro-image",
       "version": "3.0",
       "description": "Gemini 3 Pro Image",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 65536,
+      "inputTokenLimit": 65536,
+      "outputTokenLimit": 32768,
       "supportedGenerationMethods": [
         "generateContent",
         "countTokens",
@@ -2470,8 +2470,8 @@
       "name": "models/gemini-2.5-flash-image",
       "version": "2.5",
       "description": "State-of-the-art image generation and editing model.",
-      "inputTokenLimit": 1048576,
-      "outputTokenLimit": 8192,
+      "inputTokenLimit": 65536,
+      "outputTokenLimit": 32768,
       "supportedGenerationMethods": [
         "generateContent",
         "countTokens",
@@ -4768,7 +4768,7 @@
       "display_name": "Grok 4.20 0309 Reasoning",
       "name": "grok-4.20-0309-reasoning",
       "description": "xAI Grok 4.20 0309 reasoning model for the Responses API.",
-      "context_length": 2000000,
+      "context_length": 1000000,
       "max_completion_tokens": 65536,
       "supportedInputModalities": [
         "text",
@@ -4787,7 +4787,7 @@
       "display_name": "Grok 4.20 0309 Non Reasoning",
       "name": "grok-4.20-0309-non-reasoning",
       "description": "xAI Grok 4.20 0309 non-reasoning model for the Responses API.",
-      "context_length": 2000000,
+      "context_length": 1000000,
       "max_completion_tokens": 65536,
       "supportedInputModalities": [
         "text",
@@ -4806,7 +4806,7 @@
       "display_name": "Grok 4.20 Multi Agent 0309",
       "name": "grok-4.20-multi-agent-0309",
       "description": "xAI Grok 4.20 multi-agent model for the Responses API.",
-      "context_length": 2000000,
+      "context_length": 1000000,
       "max_completion_tokens": 65536,
       "thinking": {
         "levels": [
