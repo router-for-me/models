@@ -5089,7 +5089,7 @@
       "display_name": "Muse Wonder 1.0",
       "name": "muse-wonder-1.0",
       "description": "Meta's most capable model, built for complex software engineering and long-horizon agentic work.",
-      "context_length": 1007997,
+      "context_length": 1048576,
       "max_completion_tokens": 128000,
       "thinking": {
         "levels": [
@@ -5120,7 +5120,7 @@
       "display_name": "Muse Wonder 1.0 Contributor",
       "name": "muse-wonder-1.0-contributor",
       "description": "Meta's most capable model, built for complex software engineering and long-horizon agentic work.",
-      "context_length": 1007997,
+      "context_length": 1048576,
       "max_completion_tokens": 128000,
       "thinking": {
         "levels": [
