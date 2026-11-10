@@ -5014,6 +5014,37 @@
   ],
   "meta": [
     {
+      "id": "muse-ember-1.0",
+      "object": "model",
+      "created": 1794182400,
+      "owned_by": "meta",
+      "type": "meta",
+      "display_name": "Muse Ember 1.0",
+      "name": "muse-ember-1.0",
+      "description": "Meta's smallest and most efficient model designed for complex reasoning execution, tool calls, coding subtasks, routing, extraction, and long document parsing.",
+      "context_length": 1048576,
+      "max_completion_tokens": 524288,
+      "thinking": {
+        "levels": [
+          "minimal",
+          "low",
+          "medium",
+          "high",
+          "xhigh",
+          "max"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ]
+    },
+    {
       "id": "muse-wonder-1.0",
       "object": "model",
       "created": 1791763200,
