@@ -46,5 +46,13 @@
       "evidence": "Live probe sent model grok-4.7-build-fast with tools [{type: web_search}] through the Responses API; repeated runs returned web_search_call items, server-side tool usage and url_citation annotations.",
       "retrieval": "Live invocation through a local CPA xAI route on 2026-10-04"
     }
+  },
+  "meta": {
+    "muse-ember-1.0": {
+      "web_search": true,
+      "source": "https://research.meta.ai/blog/muse-ember",
+      "evidence": "Live probe sent model muse-ember-1.0 with tools [{type: web_search}] through the Responses API; returned web_search_call items (search and open_page actions) and url_citation annotations.",
+      "retrieval": "Live invocation through a local CPA Meta route on 2026-11-10"
+    }
   }
 }

@@ -5042,7 +5042,10 @@
       ],
       "supportedOutputModalities": [
         "text"
-      ]
+      ],
+      "native_capabilities": {
+        "web_search": true
+      }
     },
     {
       "id": "muse-wonder-1.0",

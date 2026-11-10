@@ -59,6 +59,7 @@ The exact assertions and provenance are recorded in
 | `xai` | `grok-4.6` | `true` | The [Grok 4.6 model page](https://docs.x.ai/developers/grok-4-6.md) lists web search; the [official Responses examples](https://docs.x.ai/developers/tools/advanced-usage.md) use this exact ID with `web_search`. |
 | `xai` | `grok-4.7` | `true` | The [Grok 4.7 model page](https://docs.x.ai/developers/models/grok-4.7) lists web search; a live Responses probe verified `web_search`. |
 | `xai` | `grok-4.7-build-fast` | `true` | Live Responses probe through a local CPA xAI route returned `web_search_call` items and `url_citation` annotations. |
+| `meta` | `muse-ember-1.0` | `true` | Live Responses probe through a local CPA Meta route returned `web_search_call` items and `url_citation` annotations. |
 
 These documentation excerpts were retrieved through Context7's indexes of the
 first-party sites (`/websites/platform_claude_en` and `/websites/x_ai`). Unless
