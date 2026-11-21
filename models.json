@@ -2922,7 +2922,7 @@
       "display_name": "GPT 6.0 Luna",
       "version": "gpt-6.0",
       "description": "GPT-6 Luna Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -2957,7 +2957,7 @@
       "display_name": "GPT 6.1 Terra",
       "version": "gpt-6.0",
       "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
-      "context_length": 500000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -2992,7 +2992,7 @@
       "display_name": "GPT 5.6 Terra",
       "version": "gpt-5.6",
       "description": "Balanced agentic coding model for everyday work.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3026,7 +3026,7 @@
       "display_name": "GPT 5.6 Luna",
       "version": "gpt-5.6",
       "description": "Fast and affordable agentic coding model.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3066,7 +3066,7 @@
       "display_name": "Codex Auto Review",
       "version": "Codex Auto Review",
       "description": "Automatic approval review model for Codex.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3171,7 +3171,7 @@
       "display_name": "GPT 6.0 Astra",
       "version": "gpt-6.0",
       "description": "GPT-6 Astra is our most intelligent model yet, with state-of-the-art performance in computer use, browsing, software engineering, science, and professional work.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3206,7 +3206,7 @@
       "display_name": "GPT 6.0 Sol",
       "version": "gpt-6.0",
       "description": "GPT-6 Sol Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3241,7 +3241,7 @@
       "display_name": "GPT 6.1 Sol",
       "version": "gpt-6.0",
       "description": "Latest workhorse model for coding and everyday work.",
-      "context_length": 272000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3276,7 +3276,7 @@
       "display_name": "GPT 6.1 Terra",
       "version": "gpt-6.0",
       "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
-      "context_length": 500000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3311,7 +3311,7 @@
       "display_name": "GPT 6.0 Luna",
       "version": "gpt-6.0",
       "description": "GPT-6 Luna Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3381,7 +3381,7 @@
       "display_name": "GPT 5.6 Sol",
       "version": "gpt-5.6",
       "description": "Our most capable model yet. GPT-5.6 Sol can tackle complex code changes, dig into research, produce polished documents, and take on your most ambitious work. Sol is highly capable at lower reasoning efforts—try starting lower, then turn it up for harder jobs.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3415,7 +3415,7 @@
       "display_name": "GPT 5.6 Terra",
       "version": "gpt-5.6",
       "description": "Balanced agentic coding model for everyday work.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3449,7 +3449,7 @@
       "display_name": "GPT 5.6 Luna",
       "version": "gpt-5.6",
       "description": "Fast and affordable agentic coding model.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3489,7 +3489,7 @@
       "display_name": "Codex Auto Review",
       "version": "Codex Auto Review",
       "description": "Automatic approval review model for Codex.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3594,7 +3594,7 @@
       "display_name": "GPT 6.0 Astra",
       "version": "gpt-6.0",
       "description": "GPT-6 Astra is our most intelligent model yet, with state-of-the-art performance in computer use, browsing, software engineering, science, and professional work.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3629,7 +3629,7 @@
       "display_name": "GPT 6.0 Sol",
       "version": "gpt-6.0",
       "description": "GPT-6 Sol Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3664,7 +3664,7 @@
       "display_name": "GPT 6.1 Sol",
       "version": "gpt-6.0",
       "description": "Latest workhorse model for coding and everyday work.",
-      "context_length": 272000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3699,7 +3699,7 @@
       "display_name": "GPT 6.1 Terra",
       "version": "gpt-6.0",
       "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
-      "context_length": 500000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3734,7 +3734,7 @@
       "display_name": "GPT 6.0 Luna",
       "version": "gpt-6.0",
       "description": "GPT-6 Luna Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3804,7 +3804,7 @@
       "display_name": "GPT 5.6 Sol",
       "version": "gpt-5.6",
       "description": "Our most capable model yet. GPT-5.6 Sol can tackle complex code changes, dig into research, produce polished documents, and take on your most ambitious work. Sol is highly capable at lower reasoning efforts—try starting lower, then turn it up for harder jobs.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3838,7 +3838,7 @@
       "display_name": "GPT 5.6 Terra",
       "version": "gpt-5.6",
       "description": "Balanced agentic coding model for everyday work.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3872,7 +3872,7 @@
       "display_name": "GPT 5.6 Luna",
       "version": "gpt-5.6",
       "description": "Fast and affordable agentic coding model.",
-      "context_length": 372000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -3912,7 +3912,7 @@
       "display_name": "Codex Auto Review",
       "version": "Codex Auto Review",
       "description": "Automatic approval review model for Codex.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -4017,7 +4017,7 @@
       "display_name": "GPT 6.0 Astra",
       "version": "gpt-6.0",
       "description": "GPT-6 Astra is our most intelligent model yet, with state-of-the-art performance in computer use, browsing, software engineering, science, and professional work.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -4052,7 +4052,7 @@
       "display_name": "GPT 6.0 Sol",
       "version": "gpt-6.0",
       "description": "GPT-6 Sol Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -4087,7 +4087,7 @@
       "display_name": "GPT 6.1 Sol",
       "version": "gpt-6.0",
       "description": "Latest workhorse model for coding and everyday work.",
-      "context_length": 272000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -4122,7 +4122,7 @@
       "display_name": "GPT 6.1 Terra",
       "version": "gpt-6.0",
       "description": "A fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
-      "context_length": 500000,
+      "context_length": 922000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -4157,7 +4157,7 @@
       "display_name": "GPT 6.0 Luna",
       "version": "gpt-6.0",
       "description": "GPT-6 Luna Codex model.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
@@ -4335,7 +4335,7 @@
       "display_name": "Codex Auto Review",
       "version": "Codex Auto Review",
       "description": "Automatic approval review model for Codex.",
-      "context_length": 272000,
+      "context_length": 872000,
       "max_completion_tokens": 128000,
       "supported_parameters": [
         "tools"
