@@ -559,6 +559,54 @@
       }
     },
     {
+      "id": "gemini-4-hydrogen",
+      "object": "model",
+      "type": "devin",
+      "owned_by": "google",
+      "display_name": "Gemini 4 Hydrogen",
+      "context_length": 1048576,
+      "max_completion_tokens": 64000,
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ]
+      }
+    },
+    {
+      "id": "gemini-4-neon",
+      "object": "model",
+      "type": "devin",
+      "owned_by": "google",
+      "display_name": "Gemini 4 Neon",
+      "context_length": 1048576,
+      "max_completion_tokens": 64000,
+      "supportedInputModalities": [
+        "text",
+        "image"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "thinking": {
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ]
+      }
+    },
+    {
       "id": "gpt-5-6-sol",
       "object": "model",
       "type": "devin",
