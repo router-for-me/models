@@ -3681,6 +3681,41 @@
         "web_search": true
       }
     },
+        {
+      "id": "gemini-4-neon",
+      "object": "model",
+      "owned_by": "google",
+      "type": "gemini",
+      "display_name": "Gemini 4 Neon",
+      "name": "models/gemini-4-neon",
+      "version": "3.0",
+      "description": "Gemini 4 Neon",
+      "context_length": 1048576,
+      "max_completion_tokens": 65536,
+      "thinking": {
+        "min": 128,
+        "max": 65535,
+        "dynamic_allowed": true,
+        "levels": [
+          "low",
+          "medium",
+          "high",
+          "xhigh"
+        ]
+      },
+      "supportedInputModalities": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "supportedOutputModalities": [
+        "text"
+      ],
+      "native_capabilities": {
+        "web_search": true
+      }
+    },
     {
       "id": "gemini-omni-1.2-flash",
       "object": "model",
